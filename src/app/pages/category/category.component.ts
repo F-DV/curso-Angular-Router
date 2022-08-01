@@ -21,6 +21,8 @@ export class CategoryComponent implements OnInit {
     private productService: ProductsService
   ) { }
 
+
+
   ngOnInit(): void {
     this.route.paramMap
     .pipe(
